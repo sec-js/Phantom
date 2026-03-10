@@ -1,7 +1,7 @@
 The following repository has two subfolders:
 
-V1 - Basic loader to execute a DLL payload
-V2 - Fully reflective loader designed for evasion purposes (in-memory execution)
+V1 - Basic loader to execute a DLL payload (not reflective) 
+V2 - Fully reflective loader designed for evasion purposes (in-memory execution), read the full paper to get into more technical details 
 
 How to use it manually?
 
