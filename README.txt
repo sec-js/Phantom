@@ -30,3 +30,9 @@ A .NET assembly is designed to work alongside the Phantom loader. it's primary o
 
 
 
+===========================================
+       3     Publications 
+===========================================
+
+Official blogpost : https://www.resillion.com/blogs/when-trusted-infrastructure-becomes-the-attack-surface/ 
+Official full paper: https://www.resillion.com/resources/when-internet-information-services-iis-becomes-a-lateral-movement-platform/
