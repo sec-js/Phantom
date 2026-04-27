@@ -3,7 +3,7 @@
       Phantom IIS Reflective Loader
 ===========================================
 
-Phantom is project created to perform loading and executing .NET assemblies directly in memory within an IIS environment running in full‑trust mode. Instead of relying on file‑based approach, it uses reflective loading techniques to inject and run a unmanaged DLL inside the memory space of the w3wp.exe worker pool process. The project is composed of two primary parts:
+Phantom is project created to perform loading and executing unmanaged code in memory within an IIS environment running in full‑trust mode. Instead of relying on file‑based approach, it uses reflective loading techniques to inject and run a unmanaged DLL inside the memory space of the w3wp.exe worker pool process. The project is composed of two primary parts:
 
 
 ===========================================
